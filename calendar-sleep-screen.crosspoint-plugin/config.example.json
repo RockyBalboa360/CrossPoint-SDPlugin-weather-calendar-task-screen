@@ -1,0 +1,11 @@
+{
+  "server": "https://YOUR-WORKER.YOUR-NAME.workers.dev",
+  "city1": "Berlin",
+  "lat1": "52.52",
+  "lon1": "13.405",
+  "city2": "Frankfurt",
+  "lat2": "50.1109",
+  "lon2": "8.6821",
+  "priority": "events_n",
+  "count": "3"
+}

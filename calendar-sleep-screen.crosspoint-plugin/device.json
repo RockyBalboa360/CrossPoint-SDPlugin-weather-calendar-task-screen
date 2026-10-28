@@ -1,0 +1,13 @@
+{
+  "title": "Calendar sleep screen",
+  "description": "Weather, calendar and tasks as sleep screen",
+  "config": { "file": "config.json" },
+  "events": {
+    "sleep.enter": {
+      "download": {
+        "url": "{cfg.server}/?city1={cfg.city1}&lat1={cfg.lat1}&lon1={cfg.lon1}&city2={cfg.city2}&lat2={cfg.lat2}&lon2={cfg.lon2}&priority={cfg.priority}&count={cfg.count}",
+        "dest": "/sleep.bmp"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "calendar-sleep-screen",
+  "version": "1.0.0",
+  "title": "Calendar sleep screen",
+  "description": "Weather, calendar and tasks as sleep screen",
+  "author": "RockyBalboa360",
+  "mount": "settings",
+  "files": ["manifest.json", "device.json", "plugin.js", "README.md", "config.example.json"]
+}
